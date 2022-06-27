@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style_to_do.css" />
+    <title>DIO-JS-TO DO LIST</title>
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h2>Lista de Tarefas</h2>
+        <input type="text" id="myInput" placeholder="ListToDo">
+        <span id="addBtn" onclick="novoItem()" class="addBtn">Adicionar</span>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <span>Itens na lista: </span>
+            <span id="currentNumber">0</span>
+        </div>
+    </div>
+
+    <ul id="myUL">
+        <li>Item primeiro</li>
+        <li>Item segundo</li>
+        <li>Item terceiro</li>
+        <li>Item quarto</li>
+        <li>Item quinto</li>
+        <li>Item n...</li>
+    </ul>
+</body>
+<script src="assets/js/script_tolist.js"></script>
+
+</html>

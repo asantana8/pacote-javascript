@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background-color: #acf3f3;
+    color: #080808;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+body.dark-mode {
+    background-color: #000401;
+    color: #e5e8e8;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    background-color: #4e545c;
+    padding: 16px;
+    color: #e5e8e8;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer.dark-mode {
+    background-color: #8d9797;
+    color: #000401;
+}
+
+button {
+    border-radius: 40px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    border: 1px solid crimson;
+    background-color: #f9aaef;
+    color: crimson;
+    transition: all 0.5s linear;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #000401;
+}
+
+button.dark-mode {
+    background-color: #e5e8e8;
+    color: #4e545c;
+}
+
+button.dark-mode:hover {
+    background-color: #4e545c;
+    color: #e5e8e8;
+}
+
+#contador {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 17px;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
